@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* --------------------------*/ 
+*{
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* ================================ */
+/*- pagina de confirmação de email -*/
+
+.Background{
+    background: -o-linear-gradient(-45deg, #FFFBB0 0%, #FFFB00 100%);
+    background: linear-gradient( -45deg, #FFFBB0 0%, #FFFB00 100%);
+    
+    width: 100%;
+    height: 100%;
+}
+.conteudo{
+    background: -webkit-linear-gradient(45deg, #060154 0%, #3932A9 100%);
+    background: -o-linear-gradient(45deg, #1c1a7d 0%, #3932A9 100%);
+    background: linear-gradient(to 45deg, #1c1a7d 0%, #3932A9 100%);
+    
+    border: solid 2px #7F7AC7;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    max-width: 350px;
+    padding: 30 30 30 30;
+    border-radius: 5px;
+}
+.txt-tela-h1{
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.txt-tela-h2{
+    color: #FFF;
+    text-align: center;
+}
+.txt-tela-h3{
+    color: #fff;
+    text-align: center;
+}
+button{
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    width: 150px;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    background: #3932A9;
+    color: #fff;
+    font-weight: bolder;
+    border-color: #FFF;
+    transition: 0.5s;
+}
+button:hover{
+    color: #FFFB00;
+    background: #1c1a7d;
+    border-color: #000;
+}
