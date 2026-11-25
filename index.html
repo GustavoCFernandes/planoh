@@ -51,6 +51,7 @@
 
     -->
    
+    <link rel="stylesheet" href="assets/css/refinements.css">
 </head>
 
 <body>
@@ -565,19 +566,19 @@ Trabalhamos em conjunto com técnicos em segurança do trabalho e engenheiros, p
                       
 <!-- ======== Formulario ===========-->
                         <article id="formulario">
-<form action="assets/php/mailto_contatos.php" method="POST">
+<form action="https://wa.me/5511940703376" method="GET" id="contact-whatsapp">
 
 <label class="label-form" for="inputNome">Nome</label>
 <input id="inputNome" type="text" name="nome" placeholder=" Preenchimento obrigatório." required  minlength="3" > 
     
-<label class="label-form" for="inputEmail">Assunto/Contato/Orçamento</label>   
-<input id="inputEmail" type="text" name="titulo" placeholder=" Preenchimento obrigatório." required minlength="3" >
+<label class="label-form" for="inputAssunto">Assunto/Contato/Orçamento</label>   
+<input id="inputAssunto" type="text" name="titulo" placeholder=" Preenchimento obrigatório." required minlength="3" >
     
 <label class="label-form" for="inputEmail">E-mail</label>   
 <input id="inputEmail" type="email" name="email" placeholder=" Preenchimento obrigatório." required minlength="5" > 
     
-<label class="label-form" for="inputEmail">Telefone</label>   
-<input id="inputEmail" type="tel" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" name="numero" placeholder=" Preenchimento obrigatório." required minlength="10" > 
+<label class="label-form" for="inputTelefone">Telefone</label>   
+<input id="inputTelefone" type="tel" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');" name="numero" placeholder=" Preenchimento obrigatório." required minlength="10" > 
     
 <label class="label-form" for="inputMensagem">Sua mensagem:</label>     
 <textarea id="inputMensagem" type="text" name="mensagem" placeholder=" Preenchimento obrigatório." required minlength="8" ></textarea>
@@ -689,7 +690,7 @@ Trabalhamos em conjunto com técnicos em segurança do trabalho e engenheiros, p
 <!-- =================================== -->
 <!-- ==========  SCRIPTS js  =========== --> 
     
-    <script src="../site-ph/assets/js/pesquisa.js"></script>
+    <script src="assets/js/pesquisa.js"></script>
     <script>
 // pegar botão
 var mybutton = document.getElementById("myBtn");
@@ -712,6 +713,8 @@ function topFunction() {
 }
 </script>
 
+    <script src="assets/js/navigation.js"></script>
+    <script src="assets/js/contact-whatsapp.js"></script>
 </body>
 
 </html>
